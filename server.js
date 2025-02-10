@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
     '.png': 'image/png',
     '.jpg': 'image/jpeg',
     '.gif': 'image/gif',
-    '.ico': 'image/x-icon' // For favicons
+    '.ico': 'image/x-icon'
   };
 
   const contentType = mimeTypes[extname] || 'text/plain'; // Default to plain text
